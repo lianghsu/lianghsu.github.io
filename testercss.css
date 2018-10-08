@@ -1,0 +1,78 @@
+/* css for my course site */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-image: linear-gradient(purple, lightblue);
+}
+header{
+  font-weight: bold;
+  font-size: 30px;
+  position: relative;
+  text-align: center;
+}
+a {
+  color: seagreen;
+}
+h2 {
+  font-family: "Courier New", Courier, monospace;
+}
+#avgtime {
+  color: black;
+  width: 30%;
+
+  float: left;
+  clear:left;
+  border: 5px yellow dotted;
+  margin-bottom: 10px;
+}
+
+
+ <!-- 
+ 
+ #avgtime {
+  color: black;
+  width: 30%;
+  position: absolute;
+  float: left;
+  clear:left;
+  border: 5px yellow solid;
+  margin-bottom: 10px;
+}
+
+
+#quotes {
+  float: right;
+  clear: right;
+  position: relative;
+  width:50%;
+  border: 3px yellow solid;
+  margin-bottom: 10px;
+}
+
+ 
+ 
+ --> 
+#quotes {
+  
+
+ 
+  width: 30%;
+  border: 3px yellow solid;
+  margin-bottom: 40px;
+}
+
+
+#links {
+  padding: 3px;
+  border: 3px Black dotted;
+  border-radius: 2%;
+  width: 25%;
+  position: relative;
+  top: 50%;
+  left: 37.5%;
+  clear: both;
+}
+
+
